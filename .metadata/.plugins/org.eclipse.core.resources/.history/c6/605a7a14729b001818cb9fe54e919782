@@ -1,0 +1,8 @@
+
+public class Car {
+	// static 키워드로 프로그램 시작 전 메모리에 로드된 자원은 프로그램 종료 전까지 메모리를 차지한다.
+	// 즉, 메모리 낭비의 원인이 되므로 남용해서든 안 된다.
+	static String name = "Sonata"; // static이 있으면 메모리에 등록이 된다.
+	static String color = "Red";
+
+}

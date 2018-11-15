@@ -1,0 +1,21 @@
+
+public class Check {
+
+	public static void main(String[] args) {
+		// #2
+		Math math = new Math();
+		
+		//double result = Math.round();
+		double result = Math.round();
+		
+		System.out.println("result = " + result);
+	}
+
+}
+
+class Math{
+	// #1 static
+	double round() {
+		return 3.14;
+	}
+}

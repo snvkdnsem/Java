@@ -1,0 +1,15 @@
+
+public class HelloWorld {
+	String title = "Hello World!";
+
+	public static void main(String[] args) {
+		// Cannot make a static reference to the non-static field(멤버변수) title
+		// main 메소드는 static 키워드를 붙여서 메모리에 할당되고 사용할 수 있으나
+		// main 메소드 내에서 사용하려는 title 변수는 static 키워드가 붙어 있지 않으므로
+		// 메모리에 할당되어 있지 않고 따라서 사용할 수 없다.
+		// static 키워드가 붙어 있는 메소드에서 static 키워드가 붙어 있지 않는 변수를 참조 할 수 없다.
+		System.out.println(title);
+
+	}
+
+}

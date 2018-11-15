@@ -1,0 +1,15 @@
+//import 자동 추가 단축키 : ctrl + shift + os
+import java.util.Scanner;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// 콘솔로 숫자를 1개 받는다.
+		
+		//짝수, 홀수 여부를 콘솔에 출력한다.
+		
+		Scanner scan;
+
+	}
+
+}
